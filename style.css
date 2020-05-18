@@ -1,0 +1,182 @@
+body {
+	 background: #BEBEBE;
+  background: -webkit-linear-gradient(to right, #BEBEBE, #BEBEBE);  
+  background: linear-gradient(to right, #BEBEBE, #BEBEBE); 
+  font-family: arial;
+  margin: 0px;
+}
+
+h1 { 
+    font-family: 'Comfortaa', cursive;
+    font-size: 32px;
+ }
+
+ h2, h3, h4 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 28px;
+}
+
+a, a: hover {
+  text-decoration: none;
+}
+
+p, ul, ol {
+  font-size: 20px;
+}
+
+.cadre {
+  background:#DCA9AC;
+  border: 3px solid #C86472;
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+.text-left {
+  text-align: left;
+}
+
+.color-green {
+  color: #458D2E;
+}
+
+.btn-pink {
+  display: inline-block;
+  color: white;
+  background: #C86472;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-pink:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.logo {
+  height: 80px;
+  margin: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #DCA9AC;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.link {
+  margin: 10px 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #458D2E;
+}
+
+
+.line-transparent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-light {
+  height: 5px;
+  width: 20%;
+  background: #EE9CA7;
+}
+
+.line-medium {
+  height: 5px;
+  width: 30%;
+  background: #C86472;
+}
+
+.line-hard {
+  height: 5px;
+  width: 50%;
+  background: #9F3442;
+}
+
+.horizontal-position {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 100px;
+}
+
+.cadre-preparation {
+  background: #DCA9AC;
+  border: 3px solid #C86472;
+  margin: 0px 0px 0px 10px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.cadre-ingredients {
+  background: #DCA9AC;
+  border: 3px solid #C86472;
+  margin: 0px 10px 0px 0px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+  width: 1000px;
+}
+
+.mozzarella {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px grey;
+  margin: 10px;
+}
+
+.lasagne {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px grey;
+  margin: 10px;
+}
+
+.soupe {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px grey;
+  margin: 10px;
+}
+
+
+
+
+
