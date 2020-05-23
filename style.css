@@ -11,9 +11,15 @@ h1 {
     font-size: 32px;
  }
 
- h2, h3, h4 {
+ h2, h3, h4, h5 {
   font-family: 'Comfortaa', cursive;
   font-size: 28px;
+}
+
+h6 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 28px;
+  color:#DCA9AC;
 }
 
 a, a: hover {
@@ -44,7 +50,6 @@ p, ul, ol {
 .text-center {
   text-align: center;
 }
-
 
 
 .text-left {
@@ -78,7 +83,7 @@ p, ul, ol {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-end;
   align-items: center;
   background: #DCA9AC;
 }
@@ -90,9 +95,10 @@ p, ul, ol {
 }
 
 .link {
-  margin: 10px 30px;
+  margin: 10px 40px;
   color: black;
   text-decoration: none;
+  content:right;
 }
 
 .link:hover {
@@ -147,6 +153,7 @@ p, ul, ol {
   border-radius: 5px;
   box-shadow: 5px 5px 10px grey;
   width: 1000px;
+  vertical-align: middle;
 }
 
 .mozzarella {
@@ -176,7 +183,33 @@ p, ul, ol {
   margin: 10px;
 }
 
+.socials {
+  font-size:40px;
+  color:pink;
+}
 
+.linkedin {
+  height: 70px;
+  margin: 2px;
+  padding:10px;
+}
 
+.facebook {
+  height: 70px;
+  margin: 2px;
+  padding:10px;
+}
+
+.instagram {
+  height: 75px;
+  margin: 2px;
+  padding:10px;
+}
+
+.card-img-top {
+  height:200px;
+  width:100%;
+  object-fit: cover;
+}
 
 
