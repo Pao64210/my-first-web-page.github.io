@@ -1,7 +1,7 @@
 body {
-	 background: #BEBEBE;
-  background: -webkit-linear-gradient(to right, #BEBEBE, #BEBEBE);  
-  background: linear-gradient(to right, #BEBEBE, #BEBEBE); 
+	 background: white;
+  background: -webkit-linear-gradient(to right, white, white);  
+  background: linear-gradient(to right, white, white); 
   font-family: arial;
   margin: 0px;
 }
@@ -22,12 +22,23 @@ h6 {
   color:#DCA9AC;
 }
 
+h2{
+  color:#C86472;
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+}
+
 a, a: hover {
   text-decoration: none;
 }
 
 p, ul, ol {
   font-size: 20px;
+  color: black;
+}
+
+.color-black {
+  color:black;
 }
 
 .cadre {
@@ -60,18 +71,34 @@ p, ul, ol {
   color: #458D2E;
 }
 
-.btn-pink {
+.my-btn {
   display: inline-block;
   color: white;
   background: #C86472;
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
 }
 
-.btn-pink:hover {
+.my-btn:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.btn-bootstrap {
+  display: inline-block;
+  color: #C86472;
+  background: #f5efef;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-bootstrap:hover {
   color: white;
   opacity: 0.8;
 }
@@ -81,9 +108,9 @@ p, ul, ol {
   margin: 5px;
 }
 
-.navbar {
+.my-navbar {
   display: flex;
-  justify-content: space-end;
+  justify-content: space-between;
   align-items: center;
   background: #DCA9AC;
 }
@@ -91,14 +118,17 @@ p, ul, ol {
 .links {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   text-decoration: none;
+  text-align: center;
 }
 
 .link {
-  margin: 10px 40px;
-  color: black;
+  margin: 0px 40px;
+  color: white;
   text-decoration: none;
   content:right;
+  text-align: center;
 }
 
 .link:hover {
@@ -212,4 +242,56 @@ p, ul, ol {
   object-fit: cover;
 }
 
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: #C86472;
+  opacity: 1;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 5;
+}
+
+.footer .fas fa-cocktail{
+  color: #C86472;
+}
+
+.footer-copyright {
+  color: #C86472;
+}
 
